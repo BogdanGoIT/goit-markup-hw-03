@@ -200,8 +200,43 @@ body {
 
 /* WORK */
 
+.container .list {
+  display: flex;
+}
+
+.work-item + .work-item {
+  margin-left: 30px;
+}
+
+.work-img {
+  display: block;
+}
+
+/* Команда разработчиков */
+
 .command {
   background: #f5f4fa;
+}
+
+.comand-item {
+  display: flex;
+}
+
+.comand-list + .comand-list {
+  margin-left: 30px;
+}
+
+.comand-list {
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
+.cmd-img {
+  display: block;
+  margin-bottom: 30px;
 }
 
 .work-title,
@@ -210,17 +245,20 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .command-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin-bottom: 10px;
 }
 
 .command-name.skills {
   color: var(--secondary-color);
   font-weight: 400;
+  margin-bottom: 30px;
 }
 
 /* FOOTER */
