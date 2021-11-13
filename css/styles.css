@@ -191,6 +191,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .feature-text {
@@ -199,10 +200,6 @@ body {
 }
 
 /* WORK */
-
-.container .list {
-  display: flex;
-}
 
 .work-item + .work-item {
   margin-left: 30px;
@@ -214,12 +211,13 @@ body {
 
 /* Команда разработчиков */
 
-.command {
-  background: #f5f4fa;
+.command-item,
+.work-list {
+  display: flex;
 }
 
-.comand-item {
-  display: flex;
+.command {
+  background: #f5f4fa;
 }
 
 .comand-list + .comand-list {
@@ -265,10 +263,24 @@ body {
 
 .footer {
   background: var(--secondary-color-fon);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
   color: var(--white-color);
+}
+
+.logo-foot {
+  margin-bottom: 20px;
+}
+
+.addr-list {
+  margin-bottom: 9px;
+}
+
+.addr-list:last-child {
+  margin-bottom: 0;
 }
 
 .footer-addr {
