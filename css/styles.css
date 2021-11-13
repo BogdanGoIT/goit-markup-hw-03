@@ -1,0 +1,203 @@
+/* цвет основного текста #212121  */
+
+/* вторичный цвет  текста #757575 */
+
+/* белый #ffffff */
+
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #2f303a */
+
+/* Стили для index.html */
+
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --acent-color: #2196f3;
+  --white-color: #ffffff;
+  --secondary-color-fon: #2f303a;
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+/* Logo */
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--acent-color);
+  text-decoration: none;
+}
+
+.nav-logo {
+  color: #000000;
+}
+
+/* Site nav */
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link,
+.nav-contacts .link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
+  color: var(--acent-color);
+}
+
+.link.current {
+  color: var(--acent-color);
+}
+
+/* nav contacts */
+
+.nav-contacts .link {
+  color: var(--secondary-color);
+}
+
+/* HERO */
+.hero {
+  background-color: var(--secondary-color-fon);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--acent-color);
+  cursor: pointer;
+}
+
+/* Feature */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.feature-text {
+  line-height: 1.71;
+  color: var(--secondary-color);
+}
+
+/* WORK */
+
+.command {
+  background: #f5f4fa;
+}
+
+.work-title,
+.command-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.command-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.command-name.skills {
+  color: var(--secondary-color);
+  font-weight: 400;
+}
+
+/* FOOTER */
+
+.footer {
+  background: var(--secondary-color-fon);
+}
+
+.footer-logo {
+  color: var(--white-color);
+}
+
+.footer-addr {
+  font-style: normal;
+  line-height: 1.71;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.footer-addr.cont {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-addr:hover,
+.footer-addr:focus {
+  color: var(--acent-color);
+}
+
+/* Portfolio */
+
+/* Фильтра */
+
+.filter-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  color: var(--white-color);
+  background-color: var(--acent-color);
+}
+
+/* Контент */
+.content-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--main-color);
+}
+
+.content-text {
+  font-size: 16px;
+  line-height: 1.87px;
+
+  color: var(--secondary-color);
+}
