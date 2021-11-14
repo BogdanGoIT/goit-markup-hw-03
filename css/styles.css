@@ -394,6 +394,8 @@ body {
 .content-text {
   font-size: 16px;
   line-height: 1.87px;
+  letter-spacing: 0.03em;
+  padding: 15px 0;
 
   color: var(--secondary-color);
 }
