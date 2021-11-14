@@ -411,6 +411,8 @@ body {
   font-size: 16px;
   line-height: 1.87px;
   letter-spacing: 0.03em;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   color: var(--secondary-color);
 }
