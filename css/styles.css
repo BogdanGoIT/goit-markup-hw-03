@@ -241,8 +241,9 @@ body {
   text-align: center;
 }
 
-.cmd-img {
-  display: block;
+.cmd-cont {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .work-title,
@@ -258,13 +259,15 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+}
+
+.command-name.title {
   margin-bottom: 10px;
 }
 
 .command-name.skills {
   color: var(--secondary-color);
   font-weight: 400;
-  margin-bottom: 30px;
 }
 
 /* FOOTER */
